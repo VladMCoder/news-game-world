@@ -2,7 +2,6 @@
   "name": "news-game-world",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "deploy": "rm -rf dist/ && npm run build && gh-pages -d dist",
     "start": "parcel src/index.html",
